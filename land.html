@@ -95,16 +95,16 @@
 
         .hermes-wings {
             position: absolute;
-            top: -20%;
-            left: -10%;
-            width: 120%;
-            height: 120%;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
             background: 
-                radial-gradient(circle at 70% 30%, rgba(255,255,255,0.1) 0%, transparent 50%),
-                radial-gradient(circle at 30% 70%, rgba(255,255,255,0.1) 0%, transparent 50%);
-            opacity: 0.2;
-            animation: wing-flow 15s infinite linear;
-            z-index: 2;
+                radial-gradient(circle at 70% 30%, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 70%),
+                radial-gradient(circle at 30% 70%, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 70%);
+            opacity: 0.5; 
+            z-index: 2; 
+            animation: wing-flow 10s infinite linear;
         }
 
         @keyframes wing-flow {
