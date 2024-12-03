@@ -60,9 +60,8 @@ body {
 
 .navbar {
   background-color: #7A5230; 
-  position: fixed; 
   top: 0; 
-  width: 100%;
+  width: 100%; 
 }
 
 .navbar, .navbar a, .navbar a:hover, .navbar a:focus {
@@ -107,9 +106,8 @@ footer {
   background-color: #FF6900; 
   color: #5D3A00; 
   padding: 20px 0;
-  font-family: 'Georgia', serif;
+  font-family: 'Georgia', serif; 
 }
-
 
 footer a {
   color: #5D3A00; 
@@ -122,3 +120,4 @@ footer a:hover {
   color: #3B2500; 
   font-weight: bold; 
 }
+
